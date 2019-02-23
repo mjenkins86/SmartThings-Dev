@@ -14,7 +14,7 @@
  *
  */
 metadata {
-	definition (name: "Steinel IS 140-2 Z-Wave", namespace: "CopyCat73", author: "Nick Veenstra") {
+	definition (name: "Steinel XLED Home 2", namespace: "CopyCat73", author: "Nick Veenstra") {
 		capability "Motion Sensor"
 		capability "Switch"
 		capability "Illuminance Measurement"
@@ -25,7 +25,7 @@ metadata {
         attribute "lastmotion", "string"
 
                 
-        fingerprint mfr: "0271", prod: "0002", model: "1A72",deviceJoinName: "Steinel IS 140-2 Z-Wave"
+        fingerprint mfr: "0271", prod: "0001", model: "1A73",deviceJoinName: "Steinel XLED Home 2"
     }
 
 
